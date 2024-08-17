@@ -1,0 +1,22 @@
+{% extends 'webapp/base.html'%}
+{% block title%}
+ProjectY-Homepage
+{% endblock %}
+
+{% block content %}
+<body>
+   <br>
+   <br>
+   <div class ="text-center">
+        <h3>
+            Projext Y ... Management is at finest !!
+        </h3>
+        <h5> Keep track of recprd effectively! </h5>
+        
+        <hr>
+        <br>
+        
+    <a class ="btn btn-primary" type="button" href ="{% url 'register'%}"> Create your account   &nbsp; <i class="fa fa-solid fa-user-plus"></i> </a>
+   </div>
+</body>
+{% endblock %}
